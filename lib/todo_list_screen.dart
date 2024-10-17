@@ -73,13 +73,13 @@ class TodoListScreenState extends State<TodoListScreen> with TickerProviderState
                     actions: [
                       TextButton(
                         onPressed: () {
-                          Navigator.pop(context, false); // User pressed "No"
+                          Navigator.pop(context, false);
                         },
                         child: Text('No', style: TextStyle(color: Colors.black)),
                       ),
                       TextButton(
                         onPressed: () {
-                          Navigator.pop(context, true); // User pressed "Yes"
+                          Navigator.pop(context, true);
                         },
                         child: Text('Yes', style: TextStyle(color: Colors.red)),
                       ),
